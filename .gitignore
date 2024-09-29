@@ -1,3 +1,6 @@
+# Autograders
+examples/gradescope/zips/*.zip
+
 # Mac Stuff
 .DS_Store
 
