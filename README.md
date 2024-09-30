@@ -248,6 +248,11 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Contributors
+
+<a href="https://github.com/jgrade2/jgrade2/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jgrade2/jgrade2" />
+</a>
 
 
 <!-- LICENSE -->
