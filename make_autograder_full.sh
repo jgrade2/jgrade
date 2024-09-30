@@ -24,7 +24,7 @@ zip -r autograder.zip lib/ res/ src/ compile.sh run.sh setup.sh run_autograder
 mv autograder.zip zips/
 
 echo "Moving autograder.zip file to root directory..."
-mv zips/autograder.zip ../../
+mv zips/autograder.zip ../../..
 
 echo "Cleaning up..."
 rm lib/jgrade2-2.0.0-a2-all.jar
