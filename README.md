@@ -296,9 +296,13 @@ This workflow will run when a pull request is opened and when a push is made to 
 
 #### JavaDoc
 
-This workflow runs whenever a push is made to the main branch. It will build the javadoc and push it to the `javadoc` branch. This will update the javadoc on the [github pages](https://jgrade2.github.io/jgrade2/javadoc/). It uitilizes the native javadoc extension.
+This workflow runs whenever a push is made to the `main` branch. It will build the javadoc and push it to the `javadoc` branch. This will update the javadoc on the [github pages](https://jgrade2.github.io/jgrade2/javadoc/). It uitilizes the native javadoc extension.
 
+#### Github Release
 
+This workflow runs whenever a tag commit is pushed onto the `main` branch. It will create and publish a new release based on the compiled jar file. This is based on the `gh_release` profile in `pom.xml`. Please see the `pom.xml` file for more information.
+
+*A note on this specific workflow:* There is no currently known way of easily getting both the ref tag and the ref branch name in a single workflow from the Github context. Depending on how the worflow is triggered, either the tag or the branch name will be used. Thus, the way branch and tag information is checked could break or be irrevelant at any time.
 
 
 #### Maven Release
