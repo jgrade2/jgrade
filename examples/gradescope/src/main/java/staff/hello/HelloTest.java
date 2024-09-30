@@ -4,10 +4,9 @@ import com.github.dscpsyl.jgrade2.gradedtest.GradedTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import student.hello.Greeting;
-
-import static org.junit.Assert.assertEquals;
 
 // I like to add this no matter what so if the submission loops,
 // Gradescope doesn't get stuck for more than 10 seconds.
