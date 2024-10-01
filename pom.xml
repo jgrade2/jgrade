@@ -41,7 +41,7 @@
     <name>jgrade2</name>
     <inceptionYear>2023</inceptionYear>
     <url>https://github.com/dscpsyl/jgrade2</url>
-    <description>An update to the original jGrade (based on tkutcher/jgrade) for Java 17 and jUnit 5</description>
+    <description>An update to the original jGrade (based on tkutcher/jgrade) for Java 21 and jUnit 5</description>
     <!-- Required for Maven Central-->
     <scm>
         <connection>scm:git:https://github.com/dscpsyl/jgrade2.git</connection>
@@ -59,7 +59,7 @@
 
     <properties> <!-- NOTE - All dependency, java, and plugin versions should be added/changed here -->
         <project.finalName>jgrade2-2.0.0-a2</project.finalName>
-        <java.target.version>17</java.target.version>
+        <java.target.version>21</java.target.version>
 
         <commons-cli.version>1.5.0</commons-cli.version>
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>

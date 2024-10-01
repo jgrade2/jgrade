@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-# Java 8
-apt-get -y install openjdk-17-jdk
+# Java 21
+apt-get -y install openjdk-21-jdk
