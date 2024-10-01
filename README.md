@@ -252,7 +252,8 @@ The `lib/` folder contains all jars and library files needed to run your test - 
 
  1. Run `./mvnw clean package` to build the jGrade2 jar
  2. Copy the jGrade2 jar to the `lib/` folder
-    ```
+    - Example
+    ```sh
     cp target/jgrade2-2.0.0-a2-all.jar examples/gradescope/lib
     ```
  3. Run either `./make_autograder.sh` or `make autograder` which will place it in the `zips/` folder.
