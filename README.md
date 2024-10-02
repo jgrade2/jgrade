@@ -28,7 +28,7 @@
     <br />
     <a href="https://github.com/jgrade2/jgrade2/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kgrade2/jgrade2/issues">Request Feature</a>
+    <a href="https://github.com/jgrade2/jgrade2/issues">Request Feature</a>
   </p>
 </div>
 
