@@ -88,7 +88,7 @@ and output the correct json format for Gradescope to read.
 
 ### Prerequisites
 
-jGrade2 requires Java 17 and JUnit5. It is recommended to use Maven to manage dependencies. Additional 
+jGrade2 requires Java 21 and JUnit5. It is recommended to use Maven to manage dependencies. Additional 
 dependencies are listed in the `pom.xml` file. For the user's convenience, a `jar` file is provided
 containing all the dependencies.
 

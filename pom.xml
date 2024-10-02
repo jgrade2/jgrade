@@ -59,7 +59,7 @@
 
     <properties> <!-- NOTE - All dependency, java, and plugin versions should be added/changed here -->
         <project.finalName>jgrade2-2.0.0-a2</project.finalName>
-        <java.target.version>17</java.target.version>
+        <java.target.version>21</java.target.version>
 
         <commons-cli.version>1.5.0</commons-cli.version>
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
